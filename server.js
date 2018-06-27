@@ -52,7 +52,7 @@ app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: 'Home Page',
         currentYear: new Date().getFullYear(),
-        welcomeMessage: 'Hi i am Florian, welcome to my web page'
+        welcomeMessage: 'Hi i am Florian, welcome to my web page!'
     });
 });
 
